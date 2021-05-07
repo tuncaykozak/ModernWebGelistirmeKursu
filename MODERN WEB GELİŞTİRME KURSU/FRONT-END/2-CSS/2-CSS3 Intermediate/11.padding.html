@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Padding</title>
+    <style>
+        /*reset css*/
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        div.box-1 {
+            width: 600px;
+            height: 200px;
+            border: 5px solid black;
+            /* padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            padding-top: 20px; */
+            /*top rigt bottom left*/
+            /* padding: 20px 20px 20px 20px; */
+            /* padding: 20px; */
+            /* padding: 20px 50px; */
+            padding: 40px;
+            /*with border size fixing*/
+            box-sizing: border-box;
+        }
+        
+        div.box-2 {
+            width: 600px;
+            height: 300px;
+            border: 5px solid black;
+            padding: 100px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ea?</div>
+    <div class="box-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, nesciunt.</div>
+
+
+</body>
+
+</html>
