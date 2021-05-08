@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth-Child Selector</title>
+    <style>
+        p {
+            font-size: 1.5em;
+        }
+        
+        p:nth-child(1) {
+            color: red;
+        }
+        
+        p:first-child {
+            background-color: yellow;
+        }
+        
+        p:nth-child(3) {
+            color: blue;
+        }
+        
+        p:nth-child(even) {
+            color: red;
+        }
+        
+        p:nth-child(odd) {
+            color: blue;
+        }
+        
+        p:nth-child(5) {
+            color: purple;
+        }
+        
+        ul {
+            font-size: 2em;
+            list-style-type: none;
+        }
+        /*an + b (n=0 & b=0 default)*/
+        
+        ul li:nth-child(2n) {
+            color: blue;
+        }
+        
+        ul li:nth-child(2n+1) {
+            color: red;
+        }
+        
+        ul li:nth-child(n+5) {
+            background-color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <!--1st child-->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, laborum!</p>
+    <!--2nd child-->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, laborum!</p>
+    <!--3rd child-->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, laborum!</p>
+    <!--4th child-->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, laborum!</p>
+    <!--5th child-->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, laborum!</p>
+    <ul>
+        <li>Element1</li>
+        <li>Element2</li>
+        <li>Element3</li>
+        <li>Element4</li>
+        <li>Element5</li>
+        <li>Element6</li>
+        <li>Element7</li>
+        <li>Element8</li>
+        <li>Element9</li>
+        <li>Element10</li>
+
+    </ul>
+
+
+</body>
+
+</html>

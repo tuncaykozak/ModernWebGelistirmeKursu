@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Fonts</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            /*Override:*/
+            font-family: 'Times New Roman', Times, serif;
+            /*Override:*/
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        .paragraph1 {
+            font-size: 16px;
+            /*font-size x 1.5*/
+            line-height: 1.5em;
+            /*Override:*/
+            font-size: 1rem;
+            font-style: italic;
+            font-weight: bold;
+        }
+        
+        div {
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+        }
+        
+        div span {
+            /* display: inline-block; */
+            font-size: 75%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Baslik 1</h1>
+    <p class="paragraph1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt itaque necessitatibus distinctio? Aspernatur facere et, quidem inventore commodi impedit, ipsum, beatae quas similique ipsam eum sed consectetur harum ad! Blanditiis obcaecati velit
+        mollitia nemo perspiciatis quam excepturi nobis illo consequuntur reiciendis error facilis totam, eius quibusdam optio aut? Nemo, suscipit.</p>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde vitae quis quibusdam provident <span>quidem nisi nesciunt.</span> Tenetur libero porro dolores provident illum architecto recusandae commodi, aspernatur praesentium similique
+            doloremque, quod ullam. Magnam, veniam aperiam est obcaecati aut maiores voluptatibus quibusdam laudantium architecto aspernatur atque saepe. Quis libero illum dolorem?</p>
+    </div>
+
+</body>
+
+</html>

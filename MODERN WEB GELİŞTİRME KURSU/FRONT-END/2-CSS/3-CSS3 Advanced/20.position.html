@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Position</title>
+    <style>
+        .fixed-topbar {
+            width: 50%;
+            padding: 20px;
+            background: black;
+            color: white;
+            text-align: center;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
+        
+        .red {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            z-index: 1;
+        }
+        
+        .blue {
+            width: 100px;
+            height: 100px;
+            background: blue;
+            position: relative;
+            left: 5px;
+            top: 5px;
+            z-index: -1;
+        }
+        
+        .outer-box {
+            width: 300px;
+            height: 300px;
+            background: #a7a7a7;
+            position: absolute;
+            top: 10px;
+            left: 100px;
+            z-index: 2;
+        }
+        
+        .inner-box {
+            width: 50px;
+            height: 50px;
+            background: green;
+            position: absolute;
+            z-index: 3;
+            top: 10px;
+            right: 10px;
+        }
+        
+        span {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: hotpink;
+            position: relative;
+            /*paragraph didn't move */
+            left: 20px;
+            /*box moved back*/
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body style="height: 1000px;">
+    <!---->
+    <!---->
+    <span></span>Lorem ipsum dolor sit amet.
+    <div class="fixed-topbar">Udemy</div>
+    <!---->
+    <!---->
+    <div class="red"></div>
+    <div class="blue"></div>
+    <!---->
+    <!---->
+    <div class="outer-box">
+        <div class="inner-box"></div>
+    </div>
+
+
+</body>
+
+</html>
