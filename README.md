@@ -1,2 +1,2 @@
 # ModernWebGelistirmeKursu
-The course from Udemy 
+The course from Udemy
