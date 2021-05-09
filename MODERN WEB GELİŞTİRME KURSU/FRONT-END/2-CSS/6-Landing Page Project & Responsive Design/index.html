@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuncay Kozak</title>
+    <meta name="keyword" content="Programlama">
+    <meta name="description" content="Tuncay Kozak">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+
+
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Tuncay Kozak</h1>
+
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#training">Eğitimler</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <img src="images/JS.png" alt="Vue Master">
+        <div class="name text-center">
+            <h2 class="heading-big">Tuncay Kozak</h2>
+            <p>ELectrical Engineer</p>
+        </div>
+        <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Eğitimler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Dersler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, odit.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Sınıf İçi Eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, odit.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Konferanslar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, odit.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        <div class="container">
+            <div class="courses">
+                <h3 class="text-center heading-medium">Kurslar</h3>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/vue.png" alt="vue" width="225">
+                        <span>%90 İndirim</span>
+                    </div>
+
+                    <div class="course-info">
+                        <div class="title">Komple Vue Eğitimi | Complete Vue Training</div>
+                        <div class="description">Sıfırdan Vue Öğrenin</div>
+                        <div class="instructor">Tuncay Kozak</div>
+                        <div class="rating">4.6 | (1000 oylama)</div>
+                    </div>
+                </div>
+
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/react.png" alt="vue">
+                        <span>%90 İndirim</span>
+                    </div>
+
+                    <div class="course-info">
+                        <div class="title">Komple React Eğitimi</div>
+                        <div class="description">Sıfırdan React Öğrenin</div>
+                        <div class="instructor">Tuncay Kozak</div>
+                        <div class="rating">4.5 | (2000 oylama)</div>
+                    </div>
+                </div>
+
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/angular.png" alt="vue">
+                        <span>%90 İndirim</span>
+                    </div>
+
+                    <div class="course-info">
+                        <div class="title">Komple Angular Eğitimi</div>
+                        <div class="description">Sıfırdan Angular Öğrenin</div>
+                        <div class="instructor">Tuncay Kozak</div>
+                        <div class="rating">4.4 | (3000 oylama)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" name="name" id="name" placeholder="İsim" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email" placeholder="E-mail" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajiniz">                        
+                    </textarea>
+
+                </div>
+                <button type="submit" class="btn btn-block">Gönder</button>
+
+            </form>
+
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
