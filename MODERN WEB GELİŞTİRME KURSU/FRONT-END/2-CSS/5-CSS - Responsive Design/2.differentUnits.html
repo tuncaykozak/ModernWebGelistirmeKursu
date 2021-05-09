@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive - CSS Units</title>
+
+    <style>
+        /*Responsive Units*/
+        /* em-rem-%-vw-vh*/
+        /* html {
+            font-size: 10px;
+        } */
+        /* div {
+            font-size: 1.5em;
+            width: 40vw;
+            height: 10vh;
+        } */
+        
+        .background {
+            background: url(/images/1920x1080.jpg) center center no-repeat;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            align-items: center;
+            padding: 10rem;
+        }
+        
+        h1 {
+            margin-bottom: 1rem;
+            font-size: 4rem;
+        }
+        
+        p {
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+        
+        @media(max-width:500px) {
+            h1 {
+                margin-bottom: 0.5rem;
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <h1>Welcome to The Site</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
+    </div>
+
+</body>
+
+</html>
